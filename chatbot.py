@@ -10,7 +10,7 @@ headers={
     }
 form = st.form(key='my-form')
 question = form.text_input('Votre question ici.. ')
-submit_button = form.form_submit_button(label='Submit')
+submit_button = form.form_submit_button(label='Soumettre')
 if submit_button: 
     
     r=requests.post("https://masterclass-right-project-zoojr.westeurope.inference.ml.azure.com/score",json={"Input":question},headers=headers)
