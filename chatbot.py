@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-st.title("Archive Buddy")
+st.title("Archie")
 
 apiKey="fbPOjL0yn8BKWhpQVS5f9iCfPSrLgReK"
 #apiKey=st.secrets["key"]
